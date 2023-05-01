@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease-in-out;
+}
+
+.nav-link:after {
+    transition: all ease-in-out .2s;
+    background: none repeat scroll 0 0 red;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+}
+.nav-link:hover:after {
+    width: 100%;
+}

@@ -1,0 +1,70 @@
+.jumbotron{
+  height: 70vh;
+  background-color: rgb(68 64 60);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.contact-left {
+  float: left;
+  width: 50%;
+  margin-right: 40px;
+}
+
+.contact-right {
+  float: right;
+  width: 50%;
+}
+
+.contact-right h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.contact-right p {
+  margin-top: 0.5rem;
+}
+
+.contact-left div a {
+  margin-right: 30px;
+  color: rgb(220 38 38);
+  font-size: 1.5rem;
+}
+
+.identity{
+  display: flex;
+  flex: 1;
+  border: none;
+}
+
+.input-field {
+  display: block;
+  width: 500px;
+  height: 50px;
+  background-color: rgb(68 64 60);
+  color: #fff;
+  padding: 0px;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+
+.input-field:focus {
+  outline: none;
+  border-bottom: 2px solid #fff;
+}
+
+.send-button {
+  background-color: rgb(220 38 38);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 145px;
+  margin-top: 10px;
+}
