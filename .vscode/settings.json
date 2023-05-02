@@ -1,8 +1,8 @@
 {
     "conventionalCommits.scopes": [
         "package",
-        "component",
         "add aboutus component",
-        "component"
+        "component",
+        "angular"
     ]
 }
