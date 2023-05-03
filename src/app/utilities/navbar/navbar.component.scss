@@ -4,6 +4,30 @@
 
 /* CSS */
 
+@media only screen and (max-width: 640px) {
+  .container {
+    padding: 0; /* Remove container padding to expand navbar to full screen width */
+  }
+  .nav-link {
+    font-size: 16px; /* Decrease font size for mobile devices */
+  }
+  .bg-stone-800 {
+    height: 60px; /* Increase navbar height for better visibility on mobile devices */
+  }
+  .flex {
+    flex-direction: row; /* Stack the items vertically on mobile devices */
+  }
+  .items-center {
+    align-items: center; /* Center the items vertically on mobile devices */
+  }
+  .justify-between {
+    justify-content: space-between; /* Add space between logo and navigation items on mobile devices */
+  }
+  .logo {
+    font-size: 24px; /* Increase logo font size for better visibility on mobile devices */
+  }
+}
+
 .nav-link {
   color: white;
   text-decoration: none;
