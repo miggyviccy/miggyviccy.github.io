@@ -4,7 +4,7 @@
 
 /* CSS */
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 480px) {
   .container {
     padding: 0; /* Remove container padding to expand navbar to full screen width */
   }
@@ -27,6 +27,7 @@
     font-size: 24px; /* Increase logo font size for better visibility on mobile devices */
   }
 }
+
 
 .nav-link {
   color: white;
