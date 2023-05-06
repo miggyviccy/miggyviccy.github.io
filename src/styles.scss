@@ -9,11 +9,9 @@ body, html{
   width: 100%;
   padding: 0rem;
   margin: 0rem;
-  scroll-behavior: smooth;
-
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   body,html {
     overflow-x: hidden;
   }

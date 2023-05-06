@@ -1,20 +1,9 @@
-<div class="portfolio-container">
-  <app-navbar></app-navbar>
-  <main>
+<div>
+<app-navbar></app-navbar>
+</div>
   <div class="mt-[65]">
-    <div id="home">
-      <app-home></app-home>
-    </div>
-    <div id="services">
-      <app-services></app-services>
-    </div>
-    <div id="about">
-      <app-aboutus></app-aboutus>
-    </div>
-    <div id="contact">
-      <app-contactus></app-contactus>
-    </div>
+    <router-outlet></router-outlet>
   </div>
-  </main>
-  <app-footer></app-footer>
+<div>
+<app-footer></app-footer>
 </div>
