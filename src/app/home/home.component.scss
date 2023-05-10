@@ -1,8 +1,4 @@
 
-
-
-
-
 @media(max-width: 600px){
   .container{
     grid-template-columns: 1fr;
@@ -38,7 +34,7 @@
   background-color: rgb(41 37 36);
   height: 92vh;
   display: grid;
-  max-width: 100%;
+  width: 100%;
   grid-template-columns: 1fr 1fr;
 }
 
