@@ -10,6 +10,7 @@ import { NavbarComponent } from './utilities/navbar/navbar.component';
 import { FooterComponent } from './utilities/footer/footer.component';
 import { ServicesComponent } from './services/services.component';
 import { FormsModule } from '@angular/forms';
+import { CertificatesComponent } from './certificates/certificates.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     ContactusComponent,
     NavbarComponent,
     FooterComponent,
-    ServicesComponent
+    ServicesComponent,
+    CertificatesComponent
   ],
   imports: [
     BrowserModule,
